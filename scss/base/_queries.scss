@@ -725,6 +725,14 @@
                 @include flex (flex, center, center);
                 margin: 2rem 1rem 2rem 1rem;
             }
+            .boton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: 0.5%;
+                
+            }
         }
     }
     .body-nosotros {/*nosotros*/
@@ -899,6 +907,18 @@
             }
         }
     }/*cierre body-contacto*/
+    #body-meals {
+        
+    }
+    .contenedor-h1-meals {
+        #lista-comidas {
+            font-size: 2rem;
+            .span-destacados{
+                margin-left: 1rem;
+                color: map-get($colores, detalles-naranja);
+            }
+        }
+    }
 } /*cierre querie*/  
 
 /*media movil 320 a 449px*/
