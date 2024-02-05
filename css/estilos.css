@@ -1500,6 +1500,13 @@ body .contenedor-login .contenedor-boton-login .boton-log-in:hover {
   .body-menu .card-container-grid .card-container .card-1 .card-front img {
     width: 100%;
   }
+  .body-menu .card-container-grid .boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    left: 110%;
+  }
   .body-menu .menu-section-bottom {
     padding: 0;
   }
@@ -1743,6 +1750,12 @@ body .contenedor-login .contenedor-boton-login .boton-log-in:hover {
   }
   .body-menu .card-container-grid .card-container .card-1 .card-front img {
     width: 100%;
+  }
+  .body-menu .card-container-grid .boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 55%;
   }
   .body-menu .menu-section-bottom {
     flex-direction: column;
@@ -2118,6 +2131,13 @@ body .contenedor-login .contenedor-boton-login .boton-log-in:hover {
     margin: 2rem 1rem 2rem 1rem;
   }
   .body-menu .card-container-grid .boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0.5%;
+  }
+  .body-menu .card-container-grid .boton .boton {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2654,6 +2674,13 @@ body .contenedor-login .contenedor-boton-login .boton-log-in:hover {
   }
   .body-menu .card-container-grid .card-container .card-1 .card-back {
     width: 100%;
+  }
+  .body-menu .card-container-grid .boton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 0.5%;
   }
   .body-nosotros { /*nosotros*/
     width: 100%;

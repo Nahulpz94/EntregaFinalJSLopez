@@ -161,8 +161,14 @@
                             width: 100%;
                         }
                     }
-                }
-                
+                } 
+            }
+            .boton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                left: 110%;
             }
         }
         .menu-section-bottom {
@@ -402,8 +408,13 @@
                             width: 100%;
                         }
                     }
-                }
-                
+                } 
+            }
+            .boton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                left: 55%;
             }
         }
         .menu-section-bottom {
@@ -726,12 +737,17 @@
                 margin: 2rem 1rem 2rem 1rem;
             }
             .boton {
-                display: flex;
+                display: flex;.boton {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    left: 0.5%;
+                }
                 align-items: center;
                 justify-content: center;
                 position: relative;
                 left: 0.5%;
-                
             }
         }
     }
@@ -1169,6 +1185,13 @@
                         width: 100%;
                     }
                 }
+            }
+            .boton {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                left: 0.5%;
             }
         }
     }
